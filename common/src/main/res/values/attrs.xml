@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <attr name="riv_radius" format="dimension"/>
+        <attr name="riv_top_left_radius" format="dimension"/>
+        <attr name="riv_width" format="dimension"/>
+        <attr name="riv_top_right_radius" format="dimension"/>
+        <attr name="riv_bottom_left_radius" format="dimension"/>
+        <attr name="riv_bottom_right_radius" format="dimension"/>
+        <attr name="riv_border_color" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CommonTitleBar">
+
+        <attr name="ctb_bg" format="reference"/>
+        <attr name="ctb_right_img1" format="reference"/>
+        <attr name="ctb_right_img2" format="reference"/>
+        <attr name="ctb_right_img3" format="reference"/>
+        <attr name="ctb_right_text" format="string"/>
+        <attr name="ctb_title_text" format="string"/>
+        <attr name="ctb_right_text_color" format="color"/>
+        <attr name="ctb_right_text_size" format="float"/>
+        <attr name="ctb_right_img_size" format="dimension"/>
+        <attr name="ctb_img_padding" format="dimension"/>
+        <attr name="ctb_tv_left" format="enum">
+            <enum name="show" value="0"/>
+            <enum name="showAndFinish" value="1"/>
+        </attr>
+
+    </declare-styleable>
+    <declare-styleable name="BaseItemView">
+        <attr name="biv_title" format="string"/>
+        <attr name="biv_title_size" format="float"/>
+        <attr name="biv_right_text" format="string"/>
+        <attr name="biv_title_width" format="dimension"/>
+        <attr name="biv_right_color" format="color"/>
+        <attr name="biv_title_color" format="color"/>
+        <attr name="biv_click_id" format="integer"/>
+        <attr name="biv_right_click_id" format="integer"/>
+        <attr name="biv_content_type" format="enum">
+            <enum name="text" value="0"/>
+            <enum name="edit" value="1"/>
+            <enum name="image" value="2"/>
+            <enum name="right_box" value="4"/>
+        </attr>
+        <attr name="biv_content_image_size" format="dimension"/>
+        <attr name="biv_content_image_res" format="reference|color"/>
+        <attr name="biv_content_hint" format="string"/>
+        <attr name="biv_content_max_line" format="integer"/>
+        <attr name="biv_forword_show" format="boolean"/>
+        <attr name="biv_divider_show" format="boolean"/>
+        <attr name="biv_content_must_need" format="boolean"/>
+        <attr name="biv_content_color" format="color"/>
+        <attr name="biv_content_size" format="float"/>
+        <attr name="biv_content_ime" format="enum">
+            <enum name="next" value="5"/>
+            <enum name="send" value="4"/>
+            <enum name="done" value="6"/>
+        </attr>
+        <attr name="biv_content_input_type" format="enum">
+            <enum name="text" value="0"/>
+            <enum name="phone" value="1"/>
+            <enum name="number" value="2"/>
+            <enum name="email" value="3"/>
+        </attr>
+        <attr name="biv_right_text_size" format="float"/>
+        <attr name="biv_content_margin_left" format="dimension"/>
+        <attr name="biv_background" format="color|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="rightIconDel" format="reference"/>
+        <attr name="rightIconShowPwd" format="reference"/>
+        <attr name="rightIconHidePwd" format="reference"/>
+        <attr name="type" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="SmoothCheckBox">
+        <attr name="duration" format="integer"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="open_animation" format="boolean"/>
+        <attr name="color_tick" format="color"/>
+        <attr name="scb_checked" format="boolean"/>
+        <attr name="color_checked" format="color"/>
+        <attr name="color_unchecked" format="color"/>
+        <attr name="color_unchecked_stroke" format="color"/>
+    </declare-styleable>
+</resources>

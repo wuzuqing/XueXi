@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_height">48dp</dimen>
+    <dimen name="ntb_padding">10dp</dimen>
+    <dimen name="ntb_img_width">48dp</dimen>
+    <dimen name="pull_critical_distance">70dp</dimen>
+</resources>

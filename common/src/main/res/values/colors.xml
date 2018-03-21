@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent30">#30000000</color>
+    <color name="white">#ffffff</color>
+
+    <color name="colorAccent">#F3456C</color>
+    <color name="colorPrimary">#f2f2f2</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="textColor_999">#999999</color>
+    <color name="textColor_666">#666666</color>
+    <color name="gray70">#7bF0F0F0</color>
+    <color name="textColor_333">#333333</color>
+    <color name="titleBar_bg">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_white_gray">#f2f2f2</color>
+    <color name="textColor_hint">#666666</color>
+    <color name="divider1">#f2f2f2</color>
+
+</resources>

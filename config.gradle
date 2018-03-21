@@ -1,0 +1,42 @@
+ext {
+    supportLibVersion = '27.0.2'
+
+    minifyEnabled =true
+    //true 正式环境  false 测试环境
+    hotfix=true
+//    minifyEnabled =true
+    android = [
+            compileSdkVersion: 27,
+            buildToolsVersion: "27.0.1",
+            minSdkVersion    : 19,
+            targetSdkVersion : 27,
+            versionCode      : 1,
+//            versionName      : "2.0.0"
+            versionName      : "1.0.0"
+    ]
+    dependencies = [
+            appcompatV7           : 'com.android.support:appcompat-v7:27.0.2',
+            appcompatV4           : 'com.android.support:support-v4:27.0.2',
+            design                : 'com.android.support:design:27.0.2',
+            recyclerview          : 'com.android.support:recyclerview-v7:27.0.2',
+            cardview              : 'com.android.support:cardview-v7:27.0.2',
+            annotations           : 'com.android.support:support-annotations:27.0.2',
+//            appcompatV7           : 'com.android.support:appcompat-v7:$supportLibVersion',
+//            design                : 'com.android.support:design:$supportLibVersion',
+//            recyclerview          : 'com.android.support:recyclerview-v7:$supportLibVersion',
+//            cardview              : 'com.android.support:cardview-v7:$supportLibVersion',
+//            annotations           : 'com.android.support:support-annotations:$supportLibVersion',
+
+            //retrofit和rxjava
+            retrofit              : 'com.squareup.retrofit2:retrofit:2.0.0-beta3',
+            okhttp3logging        : 'com.squareup.okhttp3:okhttp:3.5.0',
+            okhttp3io             : 'com.squareup.okio:okio:1.11.0',
+            rxjava                : 'io.reactivex:rxjava:1.0.1',
+            rxandroid             : 'io.reactivex:rxandroid:1.0.1',
+            retrofit2gson         : 'com.squareup.retrofit2:converter-gson:2.0.0-beta4',
+            retrofit2adapterrxjava: 'com.squareup.retrofit2:adapter-rxjava:2.0.0-beta4',
+            //七牛
+
+
+    ]
+}
